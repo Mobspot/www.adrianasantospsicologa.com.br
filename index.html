@@ -1,11 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <?php include_once("head.php"); ?>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="dns-prefetch" href="http://cdnjs.cloudflare.com/">
+
+  <title>Adriana Santos</title>
+  <meta property="og:title" content="Adriana Santos">
+  <meta property="og:site_name" content="Adriana Santos">
+  <meta name="description" content="Psicóloga Comportamental">
+
+  <meta property="og:url" content="index.php"> 
+
+  <meta property="og:description" content="Sou psicóloga e procuro transmitir para as pessoas que buscam meus serviços direção, tranquilidade e segurança, atuando na linha Analítica Comportamental com objetivo de mudar os padrões de vida do paciente">
+  
+  <link rel="amphtml" href="index.amp.html">
+  <meta name="robots" content="all">
+  <meta property="og:type" content="website">
+  <meta name="format-detection" content="telephone=no,date=no,address=no,email=no,url=no">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="ico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="ico/favicon-16x16.png">
+  <link rel="shortcut icon" href="ico/favicon.ico">
+
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/amp.css" rel="stylesheet">
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <![endif]-->
   <link href="css/style.css" rel="stylesheet">
 </head>
 <style>
       body {text-align: justify;}
+      .btn-top {
+				background-color: #3D85F6;
+			   -webkit-border-radius: 20px;
+			   -moz-border-radius: 20px;
+			   border-radius: 20px;
+			   color: #FFFFFF;
+			   font-size: 18px;
+			   font-weight: 100;
+			   padding: 5px 25px 5px 25px;
+			   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+			   -moz-box-shadow: 1px 1px 20px 0 #000000;
+			   box-shadow: 1px 1px 20px 0 #000000;
+			   text-shadow: 1px 1px 20px #000000;
+			   border: solid #337FED 1px;
+			   text-decoration: none;
+			   display: inline-block;
+			   cursor: pointer;
+			   text-align: center;
+			}
+
+			.btn-top:hover {
+			   background: #3D6BF6;
+			   border: solid #337FED 1px;
+			   -webkit-border-radius: 20px;
+			   -moz-border-radius: 20px;
+			   border-radius: 20px;
+			   text-decoration: none;
+			}
   </style>
 <body class="logo-sm home-page">
 
@@ -27,7 +87,57 @@
 					</span>
 				  </div>
 				</div>
-				<?php include_once("nav.php"); ?>
+				<nav class="menu">
+          <ul>
+            <li class="header">
+              <button class="menu-toggle js-menu-toggle" aria-label="Fechar menu">
+                <i class="icon material-icons" aria-hidden="true">menu</i>
+                <span>Menu</span>
+              </button>
+            </li>
+
+            <li class="item">
+              <a href="index.php#home">
+                <i class="icon material-icons" aria-hidden="true">home</i>
+                <span>Home</span>
+              </a>
+            </li>
+
+            <li class="item">
+              <a href="index.php#sobre-nos">
+                <i class="icon material-icons" aria-hidden="true">info</i>
+                <span>Sobre mim</span>
+              </a>
+            </li>
+
+            <li class="item">
+              <a href="index.php#onde-estou">
+                <i class="icon material-icons" aria-hidden="true">place</i>
+                <span>Onde estou</span>
+              </a>
+            </li>
+
+            <li class="item menu-item-posts">
+              <a href="index.php#noticias-atualizadas">
+                <i class="icon material-icons" aria-hidden="true">dvr</i>
+                <span>Notícias atualizadas</span>
+              </a>
+            </li>
+
+            <li class="item">
+              <a href="index.php#fale-conosco">
+                <i class="icon material-icons" aria-hidden="true">phone</i>
+                <span>Fale comigo</span>
+              </a>
+            </li>
+			<li class="item">
+              <a href="https://calendly.com/adriana_santos" target="_blank">
+                <i class="icon material-icons" aria-hidden="true">phone</i>
+                <button class="btn-top">Agendar</button>
+              </a>
+            </li>
+          </ul>
+        </nav>
 			</div>
 		</div>
 	 </div>
@@ -82,10 +192,9 @@
                     qualidade de vida. Saber pensar, sentir e agir sem deixar que as emoções
                     controlem sua vida e se acumulem de forma a reproduzir ou criar traumas
                 e doenças psicossomáticas.</p>
-                <p>Para saber mais sobre meu trabalho e iniciar um acompanhamento
-                    psicoterapêutico entre em contato através de mensagem pelo WhatsApp
-                    (11)98671-2088 ou escolha um dos horários disponíveis na agenda, será
-                    um prazer te acompanhar nesta nova fase que se inicia.</p>
+                <p>Para saber mais sobre meu trabalho e iniciar um acompanhamento psicoterapêutico 
+                  entre em contato através de mensagem pelo WhatsApp (11)98671-2088, será um prazer te 
+                  acompanhar nesta nova fase que se inicia.</p>
             </div>
           </div>
         </div>
@@ -169,16 +278,7 @@
     </div>
     <div class="separator"></div>
 	<br><br>
-    <div class="container">
-        <div class="card">
-            <h2 class="sec-title">Qual o valor da sessão e a forma de pagamento?</h2>
-			<p style="font-size:18px; color:#8e8e8e;">Cada sessão de 50 minutos tem um custo de R$ 95,00 (noventa e cinco reais).
-                O pagamento é realizado via Pix, transferência, ou cartão de crédito, você recebe um link do PagSeguro após a confirmação do horário 
-                agendado, e poderá escolher a melhor opção. 
-
-            </p>
-        </div>
-    </div>
+    
     <div class="separator"></div>
 	<br><br>
     <div class="container">
@@ -432,7 +532,37 @@
   <div class="snackbar js-snackbar"></div>
 </div>
 
-<?php include_once("footer.php"); ?>
+<footer class="main-footer">
+  <div class="container">
+    <p class="copy">
+      &copy; 2019 Adriana Santos. Todos os direitos reservados. Designed by <a href="https://mobspot.com.br" target="_blanck" >MobSpot</a><br>
+      </a>
+    </p>
+  </div>
+</footer>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y7WFE72BJ3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y7WFE72BJ3');
+</script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/runtime.js"></script>
+<script type="text/javascript" src="js/vendors.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/amp.js"></script>
+<script type="text/javascript" src="js/script-site.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+
+
 </body>
 
 </html>
